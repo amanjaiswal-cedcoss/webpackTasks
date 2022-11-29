@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
 /***/ (() => {
 
-eval("let word=\"WEBPACK\"\nfunction populate(){\n    for(let i=0;i<word.length;i++){\n        document.getElementById(\"parent\").innerHTML+=`<p>${word.charAt(i)}</p>`\n    }\n}\npopulate();\n\n\n//# sourceURL=webpack://webpack/./src/index.js?");
+eval("let word=\"WEBPACK\"\nfunction populate(){\n    for(let i=0;i<word.length;i++){\n        document.getElementById(\"parent\").innerHTML+=`<p>${word.charAt(i)}</p>`\n    }\n}\npopulate();\n\n//# sourceURL=webpack://webpack/./src/App.js?");
 
 /***/ })
 
@@ -26,7 +26,7 @@ eval("let word=\"WEBPACK\"\nfunction populate(){\n    for(let i=0;i<word.length;
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/index.js"]();
+/******/ 	__webpack_modules__["./src/App.js"]();
 /******/ 	
 /******/ })()
 ;

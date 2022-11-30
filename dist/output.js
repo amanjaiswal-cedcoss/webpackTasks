@@ -15,7 +15,7 @@
   \********************/
 /***/ (() => {
 
-eval("let word=\"WEBPACK\"\nfunction populate(){\n    for(let i=0;i<word.length;i++){\n        document.getElementById(\"parent\").innerHTML+=`<p>${word.charAt(i)}</p>`\n    }\n}\npopulate();\n\n//# sourceURL=webpack://webpack/./src/App.js?");
+eval("function populate(){\n    let word=\"WEBPACK\";\n    for(let i=0;i<word.length;i++){\n        document.getElementById(\"parent\").innerHTML+=`<p>${word.charAt(i)}</p>`\n    }\n}\npopulate();\n\n//# sourceURL=webpack://webpack/./src/App.js?");
 
 /***/ })
 
